@@ -1,0 +1,23 @@
+.Head { grid-area: header; }
+.Menu { grid-area: menu; }
+.Left { grid-area: main; }
+.Right { grid-area: right; }
+.LFooter { grid-area: lfooter; }
+.RFooter { grid-area: rfooter; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'main main right right'
+    'lfooter lfooter rfooter rfooter';
+  grid-gap: 10px;
+  background-color: #E27E7E;
+  padding: 10px;
+  
+}
+.grid-container > div {
+  background-color: #630606;
+  text-align: center;
+  padding: 20px 0;
+}
