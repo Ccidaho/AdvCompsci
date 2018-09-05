@@ -9,12 +9,12 @@
   display: grid;
   grid-template-areas:
     'header header header header'
-    'main main right right'
-    'lfooter lfooter rfooter rfooter';
+    'main right right right'
+    'lfooter rfooter rfooter rfooter';
   grid-gap: 10px;
   background-color: #E27E7E;
   padding: 10px;
-  
+
 }
 .grid-container > div {
   background-color: #630606;
